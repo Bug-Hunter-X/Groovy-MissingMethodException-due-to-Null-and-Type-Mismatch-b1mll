@@ -1,0 +1,1 @@
+This example demonstrates a common error in Groovy related to the dynamic nature of the language. The `myMethod` function attempts to call the `size()` method on its parameter, which can cause issues if the parameter is null or is not an object with a `size()` method.  The solution shows how to use safe navigation and type checking to avoid this problem.
